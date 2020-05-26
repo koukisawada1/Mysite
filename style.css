@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+section {
+	display: block;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: tomato;
+}
+.logo {
+	height: 70px;
+	float: left;
+}
+.nav {
+	float: right;
+
+}
+.nav-list {
+	float: left;
+	width: 120px;
+	font-size: 16px;
+	color: #FFFFFF;
+	list-style: none;
+	padding: 25px 30px;
+	text-decoration: none;
+}
+
+#mv {
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+
+}
+.main-title {
+	padding-top: 200px;
+	font-size: 64px;
+	color: #FFFFFF;
+}
+.main-text {
+	padding-top: 10px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.heading {
+	font-size: 32px;
+	text-align: center;
+	padding-top: 90px;
+}
+.heading-text {
+	font-size: 16px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#portfolio {
+	background-color: silver;
+}
+.portfolio-box {
+	width: 920px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+.portfolio {
+	float:left;
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	margin: 10px 10px 0 0;
+}
+.item1 {
+	background-image: url(img/sketch.jpg);
+}
+.item2 {
+	background-image: url(img/websuku.png);
+}
+.item3 {
+	background-image: url(img/write.jpg);
+	margin-right: 0;
+}
+.item4 {
+	background-image: url(img/webcamp.png);
+}
+.item5 {
+	background-image: url(img/talk.jpg);
+}
+.item6 {
+	background-image: url(img/webcamp-mother.png);
+	margin-right: 0px;
+}
+
+#feature {
+	background-size: cover;
+	background-position: center;
+}
+.feature-box {
+	width: 980px;
+	margin: 0 auto;
+	padding: 30px 0 90px 0;
+}
+.feature-item {
+	float: left;
+	width: 320px;
+	font-size: 60px;
+	margin-right: 10px;
+	text-align: center;
+}
+.feature-item:last-child {
+	margin-right: 0;
+}
+.feature-item-title {
+	padding: 10px 0;
+	font-size: 20px;
+}
+.feature-item-text {
+	font-size: 16px;
+	text-align: left;
+}
+
+#profile {
+	background-color: silver;
+}
+.profile-box {
+	padding: 30px 0 90px 0;
+}
+.profile-box-left {
+	width: 50%;
+	float: left;
+}
+.myface {
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	background-image: url(img/my-icon.jpg);
+	border-radius: 50%;
+}
+.profile-box-right {
+	width: 50%;
+	float: right;
+}
+.profile-box-title1 {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.profile-box-title2 {
+	font-size: 20px;
+	padding: 20px 0 5px 0;
+}
+.profile-box-text {
+	font-size: 16px;
+}
+
+#contact {
+
+}
+.contact-box {
+	width: 800px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+.contact-left {
+	width: 50%;
+	float: left;
+}
+.contact-mail-title {
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.contact-tel-title {
+	margin: 20px 0 5px 0;
+	font-size: 20px;
+}
+.contact-text {
+	font-size: 16px;
+	text-decoration: underline;
+}
+.contact-right {
+	width: 50%;
+	float: right;
+}
+.contact-right-box {
+	width: 170px;
+	margin: 0 auto;
+}
+.right-title {
+	font-size: 20px;
+}
+.fab {
+	font-size: 50px;
+	margin-right: 10px;
+}
+.fab:last-child {
+	margin-right: 0;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: tomato;
+	line-height: 60px;
+}
+.copyright {
+	text-align: center;
+	margin: 0 auto;
+	color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
